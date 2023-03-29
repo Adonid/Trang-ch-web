@@ -5745,6 +5745,17 @@ header.stop .top-header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.single-service-item img{
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+.single-service-item:hover img{
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(0);
+  transform: scale(1.1)
+}
 .single-service-item:hover {
   border: 2px solid #2e2a50;
   background-color: #2e2a50;
@@ -5753,11 +5764,14 @@ header.stop .top-header {
   margin-bottom: 30px;
 }
 .single-service-item h4 {
-  color: #fff;
+  color: #f8f8f8;
+}
+.single-service-item h5 {
+  color: #eef4fc;
 }
 .single-service-item p {
   margin-top: 10px;
-  color: #9a95c0;
+  color: #eef4fc;
 }
 .single-service-item a {
   margin-top: 20px;
