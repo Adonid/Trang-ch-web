@@ -5986,11 +5986,12 @@ header.stop .top-header {
   margin-top: 40px;
   padding-right: 30px;
 }
+
 .single-service .icon {
   font-size: 86px;
   line-height: 1;
   text-align: center;
-  color: #607D8B;
+  color: #673AB7;
   margin-bottom: 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -6000,7 +6001,7 @@ header.stop .top-header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   transform: scale(1.05);
-  color: #E91E63;
+  color: #795548;
 }
 
 .single-service .content p {
