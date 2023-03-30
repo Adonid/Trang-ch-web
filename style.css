@@ -5987,11 +5987,22 @@ header.stop .top-header {
   padding-right: 30px;
 }
 .single-service .icon {
-  font-size: 46px;
+  font-size: 86px;
   line-height: 1;
-  color: #086ad7;
-  margin-bottom: 15px;
+  text-align: center;
+  color: #607D8B;
+  margin-bottom: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
+
+.single-service:hover .icon{
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  color: #E91E63;
+}
+
 .single-service .content p {
   margin-top: 10px;
   color: #696969;
