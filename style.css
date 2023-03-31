@@ -5148,9 +5148,9 @@ header.stop .top-header {
   text-transform: uppercase;
 }
 .section-title h1 {
-  line-height: 50px;
-  font-weight: 900;
-  text-transform: capitalize;
+  line-height: 15px;
+  font-weight: lighter;
+  text-transform: inherit;
 }
 @media (max-width: 500px) {
   .section-title.section__title_3 {
@@ -5242,11 +5242,15 @@ header.stop .top-header {
 }
 
 .section-padding {
-  padding: 130px 0px;
+  padding: 58px 0px;
+}
+
+.section-padding p {
+    font-size: 0.88em;
 }
 @media (max-width: 991px) {
   .section-padding {
-    padding: 100px 0px;
+    padding: 60px 0px;
   }
 }
 @media (max-width: 767px) {
@@ -7947,6 +7951,18 @@ header.stop .top-header {
   bottom: 60px;
   content: "";
   z-index: -1;
+}
+.cta-banner .cta-content h4{
+  font-size: 1.09em;
+}
+.cta-banner .cta-content p{
+  font-size: 0.82em;
+  line-height: 20px;
+  color: var(--dark);
+}
+.cta-banner .cta-content a{
+  font-size: 0.7em;
+  padding: 10px 15px;
 }
 .cta-banner .cta-content {
   max-width: 1170px;
