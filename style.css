@@ -282,7 +282,7 @@ body {
   font-size: 17px;
   font-weight: 400;
   line-height: 32px;
-  color: #696969;
+  color: #959595;
   background-color: #fff;
 }
 
@@ -296,6 +296,10 @@ h6 {
   margin: 0px;
   font-weight: 700;
   color: #211e3b;
+}
+
+.wid-title h4 {
+    color: #d9d9d9;
 }
 
 h1 {
@@ -12285,7 +12289,7 @@ header.stop .top-header {
 }
 
 .footer-1 {
-  background-color: #fff;
+  background-color: #242329;
 }
 .footer-1 .footer-widgets {
   position: relative;
@@ -12482,7 +12486,7 @@ header.stop .top-header {
   font-family: "Font Awesome 5 Pro";
 }
 .footer-wrap .single-footer-wid ul li > a {
-  color: #696969;
+  color: #959595;
   margin-bottom: 15px;
   display: block;
   -webkit-transition: all 0.3s;
@@ -12501,7 +12505,7 @@ header.stop .top-header {
   }
 }
 .footer-wrap .single-footer-wid ul li > a:hover {
-  color: #086ad7;
+  color: #d9d9d9;
   padding-left: 10px;
 }
 .footer-wrap .single-footer-wid ul li:last-child a {
@@ -12638,6 +12642,12 @@ header.stop .top-header {
 .recent_post_widget .recent-post-list .single-recent-post .post-data {
   margin-top: -5px;
 }
+
+.post-data.ml-3.mt-1 a, p {
+    color: #bdbdbd;
+    font-size: 0.95em;
+    line-height: 22px;
+}
 .recent_post_widget .recent-post-list .single-recent-post .post-data span {
   font-size: 14px;
   line-height: 1;
@@ -12695,7 +12705,7 @@ header.stop .top-header {
 .newsletter_widget .newsletter_box form button {
   width: 25%;
   height: 100%;
-  background: #086ad7;
+  background: var(--cyan);
   color: #fff;
   display: inline-block;
   border-radius: 0px 10px 10px 0px;
@@ -12722,7 +12732,7 @@ header.stop .top-header {
   float: left;
   margin-right: 15px;
   overflow: hidden;
-  color: #086ad7;
+  color: var(--info);
   font-size: 24px;
   padding-right: 5px;
 }
