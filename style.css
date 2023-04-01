@@ -354,7 +354,7 @@ a {
   font-weight: 600;
   outline: none !important;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 1em;
   line-height: 32px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -12298,7 +12298,7 @@ header.stop .top-header {
 
 .footer-widgets {
   padding-top: 55px;
-  padding-bottom: 100px;
+  padding-bottom: 5px;
 }
 @media (max-width: 767px) {
   .footer-widgets {
@@ -12339,10 +12339,10 @@ header.stop .top-header {
 
 .footer-wrap .footer-bottom .footer-bottom-content {
   border-top: 1px solid #efeff1;
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
 .footer-wrap .footer-bottom a {
-  color: #086ad7;
+  color: var(--purple);
 }
 .footer-wrap .single-footer-wid {
   margin-top: 40px;
@@ -12486,13 +12486,14 @@ header.stop .top-header {
   font-family: "Font Awesome 5 Pro";
 }
 .footer-wrap .single-footer-wid ul li > a {
-  color: #959595;
-  margin-bottom: 15px;
+  color: #bdbdbd;
+  margin-bottom: 10px;
   display: block;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-weight: 500;
+  font-weight: lighter;
   text-transform: capitalize;
+  font-size: 0.88em;
 }
 @media (max-width: 1191px) {
   .footer-wrap .single-footer-wid ul li > a {
@@ -12645,7 +12646,7 @@ header.stop .top-header {
 
 .post-data.ml-3.mt-1 a, p {
     color: #bdbdbd;
-    font-size: 0.95em;
+    font-size: 0.9em;
     line-height: 22px;
 }
 .recent_post_widget .recent-post-list .single-recent-post .post-data span {
@@ -12732,7 +12733,7 @@ header.stop .top-header {
   float: left;
   margin-right: 15px;
   overflow: hidden;
-  color: var(--info);
+  color: #959595;
   font-size: 24px;
   padding-right: 5px;
 }
@@ -12740,5 +12741,5 @@ header.stop .top-header {
   overflow: hidden;
 }
 .contact_widget_2 .contact-us .single-contact-info .contact-info p {
-  margin-top: -5px;
+  margin-top: 0px;
 }
