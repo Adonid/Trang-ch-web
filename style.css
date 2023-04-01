@@ -7921,9 +7921,9 @@ header.stop .top-header {
     padding: 40px 20px;
   }
 }
-.cta-banner .container-fluid::after {
+.row .col-12:nth-child(even) .cta-banner .container-fluid::after {
   border-width: 3px;
-  border-color: rgb(255, 150, 0);
+  border-color: #CDDC39;
   border-style: solid;
   border-radius: 50%;
   position: absolute;
@@ -7939,9 +7939,9 @@ header.stop .top-header {
     top: 30px;
   }
 }
-.cta-banner .container-fluid::before {
+.row .col-12:nth-child(even) .cta-banner .container-fluid::before {
   border-width: 5px;
-  border-color: #e8524a;
+  border-color: #009688;
   border-style: solid;
   border-radius: 50%;
   position: absolute;
@@ -7952,6 +7952,7 @@ header.stop .top-header {
   content: "";
   z-index: -1;
 }
+
 .cta-banner .cta-content h4{
   font-size: 1.09em;
 }
