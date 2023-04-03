@@ -5152,7 +5152,7 @@ header.stop .top-header {
   text-transform: uppercase;
 }
 .section-title h1 {
-  line-height: 15px;
+  line-height: 33px;
   font-weight: lighter;
   text-transform: inherit;
 }
@@ -5910,6 +5910,9 @@ header.stop .top-header {
 @media (max-width: 991px) {
   .single-service-card .service-thumb {
     height: 300px;
+  }
+  .single-service-item img {
+    filter: grayscale(0);
   }
 }
 .single-service-card .content {
