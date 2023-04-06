@@ -5143,10 +5143,25 @@ header.stop .top-header {
     font-size: 60px;
   }
 }
+
+.page-title.text-title h2, .page-title.text-title p {
+    color: #f1f1f1;
+    word-spacing: 1.5px;
+}
+
+.section-title.text-title h2 {
+    color: #555;
+    font-weight: lighter;
+}
+
+.section-title.text-title p {
+    color: #333;
+    font-weight: lighter;
+}
 .section-title p {
   color: #696969;
   margin-bottom: 15px;
-  font-weight: 700;
+  font-weight: lighter;
   font-size: 15px;
   line-height: 1;
   text-transform: uppercase;
@@ -8100,13 +8115,19 @@ header.stop .top-header {
   font-size: 1.09em;
 }
 .cta-banner .cta-content p{
-  font-size: 0.82em;
+  font-size: 0.92em;
   line-height: 20px;
   color: var(--dark);
 }
 .cta-banner .cta-content a{
   font-size: 0.7em;
   padding: 10px 15px;
+}
+
+.cta-banner.get-email .cta-content a {
+    padding: 20px 45px;
+    font-size: .95em;
+    line-height: 15px;
 }
 .cta-banner .cta-content {
   max-width: 1170px;
@@ -9428,12 +9449,12 @@ header.stop .top-header {
 }
 .accordion .card-header a {
   display: block;
-  font-weight: 600;
+  font-weight: lighter;
   line-height: 50px;
-  padding: 10px 0px;
+  padding: 0px 0px;
   position: relative;
-  color: #000;
-  font-size: 18px;
+  color: #211e3b;
+  font-size: 1.12em;
 }
 .accordion .card-header a:after {
   content: "\f067";
@@ -9460,9 +9481,13 @@ header.stop .top-header {
   color: #086ad7;
 }
 .accordion .card-body {
-  padding-left: 28px;
-  padding-top: 10px;
+  padding-left: 50px;
+  padding-top: 5px;
   padding-bottom: 30px;
+  font-size: 0.85em;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .single-faq-card {
