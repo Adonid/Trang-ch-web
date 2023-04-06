@@ -5144,7 +5144,7 @@ header.stop .top-header {
   }
 }
 .section-title p {
-  color: #086ad7;
+  color: #696969;
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 15px;
@@ -5278,7 +5278,7 @@ header.stop .top-header {
 }
 
 .price-value .card-header h5, p{
-  color: #f8f9fa!important;
+  color: #f8f9fa;
 }
 
 .price-value .card-header h5{
@@ -5296,6 +5296,11 @@ header.stop .top-header {
     transition: all 0.3s ease 0s;
     height: 35px;
     line-height: 1.5rem;
+    color: #ffffff;
+}
+
+.price-value .card-header .name-price {
+    color: #f8f8f8;
 }
 
 .price-value .card-header::after{
@@ -5321,6 +5326,7 @@ header.stop .top-header {
 
 .price-value.popular .card-header::after{
   border-top: 15px solid #a0c90d;
+  right: calc(50% - 15px);
 }
 
 .price-value:hover .card-header::after{
@@ -5828,6 +5834,7 @@ header.stop .top-header {
 
 .single-features-item .content p {
     font-size: 15px;
+    color: #696969;
 }
 .features-2 {
   background-color: #eef4fc;
