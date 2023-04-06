@@ -2874,13 +2874,13 @@ header.header-2 .main-menu ul > li > a {
   line-height: 1;
   padding: 40px 20px;
   overflow: hidden;
-  color: #fff;
+  color: #211e3b;
 }
 header.header-2 .main-menu ul > li > a i {
   margin-left: 5px;
 }
 header.header-2 .main-menu ul > li:hover > a {
-  color: #086ad7;
+  color: #febc35;
 }
 header.header-2 .main-menu ul > li:hover > ul {
   opacity: 1;
@@ -2892,15 +2892,15 @@ header.header-2 .main-menu ul > li > ul {
   position: absolute;
   top: 100%;
   width: 230px;
-  background-color: #086ad7;
+  background-color: #febc35;
   left: 0;
   z-index: 999;
   -webkit-box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
-          box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
+  box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
   visibility: hidden;
   opacity: 0;
   -webkit-transform: translateY(40px);
-          transform: translateY(40px);
+  transform: translateY(40px);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   padding: 10px 0px;
@@ -2910,7 +2910,7 @@ header.header-2 .main-menu ul > li > ul li {
 }
 header.header-2 .main-menu ul > li > ul li a {
   display: block;
-  color: #fff;
+  color: #211e3b;
   padding: 12px 25px;
 }
 header.header-2 .main-menu ul > li > ul li a:hover {
